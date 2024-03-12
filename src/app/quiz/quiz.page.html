@@ -1,0 +1,198 @@
+
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>QUIZ</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-content>
+      <p> 1. ¿Quién es el protagonista principal de Dragon Ball Z?</p>
+      <ion-radio-group (ionChange)="updateScore($event.detail.value, 'a')">
+        <ion-item>
+          <ion-label>a) Goku</ion-label>
+          <ion-radio slot="start" value="a"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>b) Vegeta</ion-label>
+          <ion-radio slot="start" value="b"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>c) Gohan</ion-label>
+          <ion-radio slot="start" value="c"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>d) Piccolo</ion-label>
+          <ion-radio slot="start" value="d"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      <p> 2. ¿Cuál es la transformación Super Saiyan más poderosa alcanzada por Goku en Dragon Ball Z?</p>
+      <ion-radio-group (ionChange)="updateScore($event.detail.value, 'd')">
+        <ion-item>
+          <ion-label>a)  Super Saiyan 1</ion-label>
+          <ion-radio slot="start" value="a"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>b)  Super Saiyan 2</ion-label>
+          <ion-radio slot="start" value="b"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>c)  Super Saiyan 3</ion-label>
+          <ion-radio slot="start" value="c"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>d)  Super Saiyan 4</ion-label>
+          <ion-radio slot="start" value="d"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      <p>3. ¿Cuál de estos villanos es el más poderoso en Dragon Ball Z?</p>
+      <ion-radio-group (ionChange)="updateScore($event.detail.value, 'd')">
+        <ion-item>
+          <ion-label>a) Freezer</ion-label>
+          <ion-radio slot="start" value="a"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>b) Cell</ion-label>
+          <ion-radio slot="start" value="b"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>c) Magin Buu</ion-label>
+          <ion-radio slot="start" value="c"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>d) Broly</ion-label>
+          <ion-radio slot="start" value="d"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      <p>4. ¿Quién es el padre de Goku?</p>
+      <ion-radio-group (ionChange)="updateScore($event.detail.value, 'a')">
+        <ion-item>
+          <ion-label>a) Bardock</ion-label>
+          <ion-radio slot="start" value="a"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>b) Raditz</ion-label>
+          <ion-radio slot="start" value="b"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>c) Vegeta</ion-label>
+          <ion-radio slot="start" value="c"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>d) Nappa</ion-label>
+          <ion-radio slot="start" value="d"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      <p>5. ¿Cuál es la técnica de ataque más poderosa de Goku?</p>
+      <ion-radio-group (ionChange)="updateScore($event.detail.value, 'b')">
+        <ion-item>
+          <ion-label>a)  Kamehameha</ion-label>
+          <ion-radio slot="start" value="a"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>b) Genkidama</ion-label>
+          <ion-radio slot="start" value="b"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>c) Masenko</ion-label>
+          <ion-radio slot="start" value="c"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>d) Galick Gun</ion-label>
+          <ion-radio slot="start" value="d"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      <p>6. ¿Quién es el mejor amigo de Goku desde la infancia?</p>
+      <ion-radio-group (ionChange)="updateScore($event.detail.value, 'a')">
+        <ion-item>
+          <ion-label>a)  Krilin</ion-label>
+          <ion-radio slot="start" value="a"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>b) Yamcha</ion-label>
+          <ion-radio slot="start" value="b"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>c) Tenshinhan</ion-label>
+          <ion-radio slot="start" value="c"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>d) Piccolo</ion-label>
+          <ion-radio slot="start" value="d"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      <p>7. ¿Cómo se llama el planeta natal de los Saiyans?</p>
+      <ion-radio-group (ionChange)="updateScore($event.detail.value, 'c')">
+        <ion-item>
+          <ion-label>a)  Namek</ion-label>
+          <ion-radio slot="start" value="a"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>b) Tierra</ion-label>
+          <ion-radio slot="start" value="b"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>c) Vegeta</ion-label>
+          <ion-radio slot="start" value="c"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>d) Namekus</ion-label>
+          <ion-radio slot="start" value="d"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      <p>8. ¿Qué objeto es necesario para invocar al Dragón Shenlong y hacer un deseo?</p>
+      <ion-radio-group (ionChange)="updateScore($event.detail.value, 'a')">
+        <ion-item>
+          <ion-label>a)  Las esferas del Dragon</ion-label>
+          <ion-radio slot="start" value="a"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>b) Un radar</ion-label>
+          <ion-radio slot="start" value="b"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>c) Un cristal magico</ion-label>
+          <ion-radio slot="start" value="c"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>d) ) Una espada divina</ion-label>
+          <ion-radio slot="start" value="d"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-card-content>
+  </ion-card>
+  
+  <ion-button expand="block" (click)="checkAnswers()">Verificar respuestas</ion-button>
+</ion-content>

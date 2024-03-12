@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { RedireccionamientService } from '../services/redireccionamient.service';
 
 @Component({
   selector: 'app-home',
@@ -6,7 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  constructor(private redireccionamiento: RedireccionamientService) {}
 
-  constructor() {}
-
+  nav(ruta: string) {
+    this.redireccionamiento.navegar(ruta);
+  }
 }

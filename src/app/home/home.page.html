@@ -1,20 +1,23 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-title>Home</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<ion-content class="ion-padding">
+  <ion-card>
+    <ion-img src="//src/assets/images//welcome.jpg"></ion-img>
+    <ion-card-header>
+      ¡Hola!
+    </ion-card-header>
+    <ion-card-content>
+        Bienvenido a mi aplicación en Ionic. Estoy emocionado de mostrarte lo que he creado.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-button expand="block" routerLink="/weather">Ver el clima</ion-button>
+  <ion-button expand="block" routerLink="/calculator">Utiliza una calculadora</ion-button>
+  <ion-button expand="block" routerLink="/quiz">Contesta este quiz</ion-button>
 </ion-content>
+

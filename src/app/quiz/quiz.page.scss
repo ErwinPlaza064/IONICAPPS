@@ -1,0 +1,56 @@
+
+    ion-content {
+      --ion-background-color: #717070; // Fondo gris claro
+  
+      ion-card {
+        margin: 20px;
+        border-radius: 15px;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); // Sombra suave
+  
+        p {
+          font-size: 18px;
+          font-weight: bold;
+          margin-bottom: 10px;
+        }
+  
+        ion-item {
+          --border-color: #ccc; // Color del borde del ítem
+          --inner-border-radius: 15px; // Borde interior redondeado
+  
+          ion-label {
+            font-size: 16px;
+          }
+        }
+  
+        ion-radio {
+          --color-checked: #3880ff; // Color del radio cuando está seleccionado
+        }
+      }
+  
+      ion-button {
+        margin: 20px;
+        --background: #030303; // Color del botón
+        --border-radius: 10px; // Borde redondeado
+        font-weight: bold;
+  
+        &:hover {
+          --background: #390b95; // Color del botón al pasar el cursor
+        }
+      }
+    }
+  
+    ion-alert {
+      --ion-background-color: #fff; // Fondo blanco
+      --border-radius: 15px; // Borde redondeado
+  
+      .alert-message {
+        font-size: 18px;
+        font-weight: bold;
+      }
+  
+      .alert-button {
+        font-weight: bold;
+      }
+    }
+  
+  

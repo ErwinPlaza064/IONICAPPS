@@ -1,0 +1,41 @@
+ion-content {
+    --background: #f4f4f4;
+  }
+  
+  ion-input {
+    text-align: right;
+    font-size: 2rem;
+    padding: 10px;
+    border: none;
+    background-color: #383434;
+  }
+  
+  ion-button {
+    font-size: 1.5rem;
+    --border-radius: 0;
+    --background: #37596f;
+    margin: 5px;
+  }
+  
+  ion-button[prueba="danger"] {
+    --background: #545151;
+  }
+  
+  ion-button[prueba="success"] {
+    --background: #545151 ;
+  }
+  
+  ion-grid {
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  ion-row {
+    text-align: center;
+  }
+  
+  ion-col {
+    padding: 0;
+  }
+  
+  
