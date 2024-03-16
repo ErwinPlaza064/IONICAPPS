@@ -18,7 +18,7 @@ export class WeatherPage implements OnInit {
   async getWeatherData() {
     const apiKey =
       'd626ef1de425f96890ecce16a02b7d63'; 
-    const apiKey2 = "b692beaa-dff5-11ee-be1e-0242ac130002-b692bf22-dff5-11ee-be1e-0242ac130002";
+    const apiKey2 = "d6c93802-e07c-11ee-afd5-0242ac130002-d6c93866-e07c-11ee-afd5-0242ac130002";
       const city = 'SALAMANCA';
     const lat = 20.569500624624187;
     const lng = -101.19562748166241;

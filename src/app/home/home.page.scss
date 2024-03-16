@@ -14,8 +14,8 @@
     }
 
     ion-card-header {
-    background-color: #841709;
-      color: #fff;
+      background:linear-gradient(rgb(232, 24, 1),rgb(21, 21, 168));
+        color: #fff;
       font-size: 50px;
       font-weight: bold;
       text-align: center;
@@ -23,6 +23,7 @@
     }
 
     ion-card-content {
+      background:linear-gradient(blue, pink);
       padding: 30px;
       color: #ffffff;
       text-align: center;
@@ -33,7 +34,7 @@
   }
 
   ion-button {
-    --background: #841709;
+    background:linear-gradient(rgb(232, 24, 1),rgb(21, 21, 168));
     --color: #fff;
     --border-radius: 10px;
     margin-top: 20px;
